@@ -42,6 +42,10 @@ build/Release
 node_modules/
 jspm_packages/
 
+# vitepress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
