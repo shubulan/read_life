@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "cursed with knowledge",
   description: "Record the books I have read",
+  base: "/read_life/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
