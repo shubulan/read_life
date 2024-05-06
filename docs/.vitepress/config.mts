@@ -75,10 +75,15 @@ export default defineConfig({
           ]
         },
         {
-          text: '决策问题清单',
+          text: '阅读第三层：分析阅读',
           items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
+            { text: '一本书的分类', link: '/how_to_read_a_book/analysis_read/classify.md' },
+            { text: '透视一本书', link: '/how_to_read_a_book/analysis_read/x_raying_a_book.md' },
+            { text: '与作者找出共通的词义', link: '/how_to_read_a_book/analysis_read/coming_to_terms_with_author.md' },
+            { text: '判断作者的主旨', link: '/how_to_read_a_book/analysis_read/determining_an_author_message.md' },
+            { text: '公正的评断一本书', link: '/how_to_read_a_book/analysis_read/criticizing_a_book_fairly.md' },
+            { text: '赞同或者反对作者', link: '/how_to_read_a_book/analysis_read/agreeing_or_disagreeing_with_an_author.md' },
+            { text: '辅助阅读', link: '/how_to_read_a_book/analysis_read/aids_to_reading.md' },
           ]
         },
         {
