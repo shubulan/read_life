@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "cursed with knowledge"
-  text: "Record the books I have read"
-  tagline: My great project tagline
+  name: "被知识诅咒"
+  tagline: 不成熟的状态就是不经别人的引导，就对运用自己的理智无能为力 --康德
+
   actions:
     - theme: brand
       text: Markdown Examples
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
-  - title: Feature A
+  - title: 方法论
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: 清单
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 案例
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

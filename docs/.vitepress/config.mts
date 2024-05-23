@@ -9,11 +9,24 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: '学习方法论', link: '/how_to_learn/' },
       { text: '如何阅读一本书', link: '/how_to_read_a_book/' },
       { text: '如何用提问解决问题', link: '/the_book_of_beautiful_questions/' }
     ],
 
     sidebar: {
+      "/how_to_learn/": [
+        {
+          text: '学习方法论',
+          items: [
+            { text: '学习方法论', link: '/how_to_learn/ch01.md'},
+            { text: '筛选学习内容', link: '/how_to_learn/ch02.md'},
+            { text: '转变态度', link: '/how_to_learn/ch03.md'},
+            { text: '元认知策略', link: '/how_to_learn/ch04.md'},
+            { text: '挫败感->成就感', link: '/how_to_learn/ch05.md'},
+          ]
+        },
+      ],
       "/the_book_of_beautiful_questions/": [
         {
           text: '书籍介绍',
