@@ -26,6 +26,12 @@ export default defineConfig({
             { text: '挫败感->成就感', link: '/how_to_learn/ch05.md'},
           ]
         },
+        {
+          text: '知识架构法',
+          items: [
+            { text: '架构知识', link: '/how_to_learn/ch06.md'},
+          ]
+        },
       ],
       "/the_book_of_beautiful_questions/": [
         {
