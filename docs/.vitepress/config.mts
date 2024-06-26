@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Learning is a habit",
+  title: "程序员的生活",
   description: "Record the books I have read",
   base: "/read_life/",
   themeConfig: {
