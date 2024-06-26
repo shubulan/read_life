@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "cursed with knowledge",
+  title: "Learning is a habit",
   description: "Record the books I have read",
   base: "/read_life/",
   themeConfig: {
@@ -10,7 +10,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '学习方法论', link: '/how_to_learn/' },
-      { text: '如何阅读一本书', link: '/how_to_read_a_book/' },
+      { text: '阅读一本书', link: '/how_to_read_a_book/' },
       { text: '如何用提问解决问题', link: '/the_book_of_beautiful_questions/' }
     ],
 
@@ -24,6 +24,7 @@ export default defineConfig({
             { text: '转变态度', link: '/how_to_learn/ch03.md'},
             { text: '元认知策略', link: '/how_to_learn/ch04.md'},
             { text: '挫败感->成就感', link: '/how_to_learn/ch05.md'},
+            { text: '习惯', link: '/how_to_learn/habits.md' },
           ]
         },
         {
